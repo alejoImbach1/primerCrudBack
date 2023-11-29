@@ -92,4 +92,4 @@ Route::get('infraestructuras/sede/{id}', [InfraestructuraController::class,'show
 Route::get('infraestructuras/area/{id}', [InfraestructuraController::class,'showByArea']);
 Route::get('infraestructuras/sede/{idSede}/area/{idArea}', [InfraestructuraController::class,'showBySedeArea']);
 
-Route::resource('crud', CrudController::class);
+Route::resource('cruds', CrudController::class);
